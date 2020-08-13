@@ -10,7 +10,6 @@ text = input("Keyword: ")
 url = "http://artii.herokuapp.com/make?text="
 new_url = (url + text)
 
-print(new_url)
 
 url_req = requests.get(new_url)
 url_text = url_req.text
